@@ -1,0 +1,335 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap');
+* {
+	box-sizing: border-box;
+	font-family: "Roboto", sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	overflow-x: hidden;
+	position: relative;
+	padding-top: 76px;
+}
+a{
+	text-decoration: none;
+}
+
+.navbar-custom {
+	background-color: #e5e5e5;
+}
+
+.navbar-custom .navbar-nav .nav-link {
+	color: #1a1a1a;
+	font-family: "Open Sans", sans-serif;
+	font-weight: 700;
+
+}
+
+.navbar-custom .navbar-nav .nav-link.active{
+	color: #1a1a1a;
+	border-bottom: 2px solid #323f45;
+}
+.navbar-custom .navbar-nav .nav-link:hover{
+	border-bottom: 2px solid #555;
+	color: #1a1a1a;
+}
+
+
+
+.mission{
+	background-color: #41807C;
+
+}
+.mission h2{
+	font-size: 3rem;
+
+}
+.mission hr{
+	height: 3px;
+	background-color: #f1c505;
+	width: 200px;
+	opacity: 1;
+}
+
+.mission p{
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.25rem;
+}
+.iso h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 3.75rem;
+	line-height: 80px;
+	font-weight: 200;
+}
+
+.iso .button{
+	font-family: "Open Sans", sans-serif;
+	font-size: 1rem;
+	font-weight: 700;
+	background-color: #fff;
+	color: #111;
+	padding: 15px 50px;
+	border: 3px solid black;
+}
+.iso .button:hover{
+	background-color: #478AC9;
+	color: #fff;
+	text-decoration: none;
+	
+}
+.engagement{
+	background-color: #f2f2f2;
+	/* min-height: 80vh; */
+	height: auto;
+	position: relative;
+	z-index: 1;
+}
+
+.engagement h1{
+	font-size: 3rem;
+	font-weight: 700;
+	color: #f1C50e;
+}
+.engagement hr{
+	height: 6px;
+	background-color: #f1C50e;
+	width: 100px;
+	position: relative;
+	z-index: 3;
+	opacity: 1;
+}
+.engagement .box{
+	background-color: #fff;
+	padding: 10px 30px;
+	box-shadow: 0 0 5px -1px #999;
+	position: relative;
+	z-index: 2;
+}
+.engagement .box p{
+	font-family: "Open Sans", sans-serif;
+	font-size: 18px;
+	line-height: 1.6;
+	margin: 0;
+	/* box-shadow: offset 10px 5px #333, offset -10px 5px #333; */
+}
+.title{
+	position: relative;
+	z-index: 2;
+}
+.engagement .block{
+	background-color: #F5EDC7;
+	height: 200px;
+	width: 150%;
+	position: absolute;
+	left: -50%;
+	top: 55%;
+	z-index: -1;
+}
+
+.implication{
+	background-image: url("imgs/about-powerhouse-consulting-1024x682.jpeg");
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	background-attachment: fixed;
+	position: relative;
+}
+.implication::after{
+	content: "";
+	position: absolute;
+	top: 0;
+	left: 0;
+	background-color: rgba(255, 255, 255, 0.8);
+	height: 100%;
+	width: 100%;
+	z-index: 1;
+}
+.implication .column-1 h1{
+	font-family: 'Playfair Display', serif;
+	font-size: 3rem;
+	font-weight: 700;
+	line-height: 52.8px;
+	color: #000;
+
+}
+.implication .column-1 hr{
+	height: 6px;
+	background-color: #333;
+	width: 100px;
+	opacity: 1;
+} 
+.implication .column-2 p{
+	font-family: "Open Sans", sans-serif;
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 25.6px;
+	text-align: justify;
+}
+
+.steps .steps-title h3{
+	font-size: 30px;
+	line-height: 36px;
+	color: #111;
+	padding: 30px;
+	border: 3px solid #4781C9;
+}
+.steps .steps-details-1 .price h1{
+	font-family: 'Oswald', sans-serif;
+	font-size: 3.75rem;
+	line-height: 66px;
+	font-weight: 200;
+	margin-bottom: 100px;
+}
+
+.steps .steps-details-1 .price .button{
+	font-family: "Open Sans", sans-serif;
+	font-size: 1rem;
+	font-weight: 700;
+	line-height: 25.6px;
+	color: #111;
+	padding: 10px 30px;
+	border: 2px solid #425465;
+}
+.steps .steps-details-1 .price .button:hover{
+	color: #fff;
+	background-color: #478AC9;
+}
+
+.steps .steps-details-2 p{
+	font-family: "Open Sans", sans-serif;
+	font-size: 1rem;
+	line-height: 25.6px;
+	color: #111;
+}
+.steps .steps-details-2 p span{
+	font-weight: 700;
+}
+
+
+.nouschoisir{
+	/* min-height: 50vh; */
+	height: auto;
+	background-color: #F2F2F2;
+}
+
+.nouschoisir .column-1 h1{
+	font-size: 3.75rem;
+	font-weight: 700;
+	line-height: 60px;
+	color: #111;
+	max-height: 50vh;
+}
+
+.nouschoisir .column-1 .button{
+	font-family: "Open Sans", sans-serif;
+	font-size: 0.9rem;
+	font-weight: 700;
+	letter-spacing: 2px;
+	color: #3E3E3E;
+	border: 2px solid #3E3E3E;
+	padding: 10px 30px;
+}
+.nouschoisir .column-1 .button:hover{
+	background-color: #999999;
+	color: #fff;
+}
+
+
+.nouschoisir .column-2 p{
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.2rem;
+	line-height: 25.6px;
+	max-height: 50vh;
+}
+
+.nouschoisir .column-2 .link{
+	font-family: "Open Sans", sans-serif;
+	font-size: 1.2rem;
+	font-weight: 700;
+	line-height: 28.8px;
+	color: #387CBD;
+}
+
+
+
+
+
+
+
+footer {
+	width: 100%;
+	background-color: #263238;
+	/* min-height: 60vh; */
+	height: auto;
+}
+
+footer p {
+	font-size: 13px;
+	color: #ccc;
+	padding-bottom: 0px;
+	margin-bottom: 8px;
+	text-align: justify;
+}
+
+.footer-ul {
+	margin: 0px;
+	list-style-type:square;
+	font-size: 14px;
+	padding: 0px 0px 10px 0px;
+}
+.footer-ul li {
+	padding: 0px 0px 5px 0px;
+	color: #ccc;
+
+}
+
+.bottom_border {
+	border-bottom: 1px solid #323f45;
+	padding-bottom: 20px;
+}
+
+.footer-nav a {
+	color: #999;
+	margin: 0 12px;
+	text-decoration: underline;
+
+}
+
+.footer-nav a:hover {
+	color: #F2F2F2;
+}
+
+.contact-inner{
+	font-size: 16px;
+}
+
+.social-footer a {
+	color: #ccc;
+	border: 1px solid #ccc;
+	padding: 8px;
+	border-radius: 50%;
+}
+.social-footer a:hover {
+	color: #fff;
+	border: 1px solid #fff;
+}
+.social-footer i {
+	width: 20px;
+	height: 20px;
+	text-align: center;
+}
+.copyright{
+	font-size: 20px;
+}
+.copyright a{
+	color: #F4F4F4;
+}
+.copyright a:hover{
+	color: #387CBD;
+}

@@ -40,25 +40,25 @@
   <section class="get-in-touch">
     <div class="container">  
       <h1 class="title">Contactez-nous!</h1>
-      <form class="contact-form row" autocomplete="off">
+      <form class="contact-form row" autocomplete="off" method="POST" data-netlify="true">
         <div class="form-field col-lg-6">
-            <input id="name" class="input-text bg-white" type="text" autocomplete="off" required>
+            <input id="name" class="input-text bg-white" type="text" name="Nom - Prénom" autocomplete="off" required>
             <label class="label" for="name">Nom - Prénom</label>
         </div>
         <div class="form-field col-lg-6 ">
-            <input id="email" class="input-text bg-white" type="email" autocomplete="off" required>
+            <input id="email" class="input-text bg-white" type="email" name="E-mail" autocomplete="off" required>
             <label class="label" for="email">E-mail</label>
         </div>
         <div class="form-field col-lg-6 ">
-            <input id="company" class="input-text bg-white" type="text" autocomplete="off" required>
-            <label class="label" for="company">Socièté</label>
+            <input id="company" class="input-text bg-white" type="text" name="Société" autocomplete="off" required>
+            <label class="label" for="company">Société</label>
         </div>
           <div class="form-field col-lg-6 ">
-            <input id="phone" class="input-text bg-white" type="text" autocomplete="off" required>
+            <input id="phone" class="input-text bg-white" type="text" name="Téléphone" autocomplete="off" required>
             <label class="label" for="phone">Téléphone</label>
         </div>
         <div class="form-field col-lg-12">
-          <select class="input-text bg-white" required>
+          <select class="input-text bg-white" name="Service" required>
             <option aria-invalid="true"></option>
             <option>Etudes</option>
             <option>Ingénierie de Formation</option>
@@ -71,7 +71,7 @@
             <label class="label">Choisissez un service</label>
         </div>
         <div class="form-field col-lg-12">
-            <textarea id="message" class="input-text bg-white" type="text" required></textarea>
+            <textarea id="message" class="input-text bg-white" type="text" name="Message" required></textarea>
             <label class="label" for="message">Message</label>
         </div>
         <div class="form-field col-lg-12">

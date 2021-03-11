@@ -333,3 +333,40 @@ footer p {
 .copyright a:hover{
 	color: #387CBD;
 }
+
+
+@media (max-width: 768px){
+	.iso h1{
+		font-size: 2.5rem;
+		line-height: 70px;
+	}
+	.iso .button{
+		font-size: 0.8rem;
+		padding: 10px;
+		margin: auto;
+	}
+	.steps .steps-title h3{
+		font-size: 1.7rem;
+		line-height: 1.2;
+		padding: 20px;
+	}
+
+	.implication .column-1 h1{
+		font-size: 2.5rem;
+		font-weight: 700;	
+	}
+	.steps .steps-details-1 .price h1{
+		font-size: 2.5rem;
+		line-height: 70px;
+	}
+	.steps .steps-details-1 .price .button{
+		font-size: 0.8rem;
+		font-weight: 600;
+		padding: 10px 20px;
+	}
+	.nouschoisir .column-1 h1{
+		font-size: 2.5rem;
+		font-weight: 700;
+	}
+
+}

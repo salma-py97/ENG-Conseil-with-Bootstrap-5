@@ -55,6 +55,7 @@ body {
 	position: relative;
 
 }
+
 .showcase::after{
 	content: "";
 	height: 100%;
@@ -65,7 +66,13 @@ body {
 	background-color: rgba(0, 0, 0, 0.3);
 	z-index: 1;
 }
-.showcase h3{
+.showcase-inner{
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+	z-index: 3;
+}
+.showcase .showcase-inner h3{
 	font-family: "Open Sans", sans-serif;
 	font-size: 1.8rem;
 	font-weight: 700;
@@ -77,10 +84,10 @@ body {
 	left: 5%; */
 	/* margin: 0;
 	padding: 0; */
-	position: relative;
-	z-index: 2;
+	/* position: relative; */
+	/* z-index: 2; */
 }
-.showcase h1{
+.showcase .showcase-inner h1{
 	font-family: 'Oswald', sans-serif;
 	font-size: 5.5rem;
 	line-height: 1.1;
@@ -89,15 +96,10 @@ body {
 	left: 5%; */
 	padding: 0;
 	margin: 0;
-	position: relative;
-	z-index: 2;
+	/* position: relative; */
+	/* z-index: 2; */
 }
-@media(max-width: 768px){
-	.showcase h1{
-		font-size: 4rem;
 
-	}
-}
 
 .showcase-2{
 	/* min-height: 30vh; */
@@ -139,13 +141,7 @@ body {
 	font-weight: 700;
 }
 
-@media(max-width: 768px){
-	.showcase-4{
-		min-height: 60vh;
-		font-size: 1.2rem;
-		font-weight: 600;
-	}
-}
+
 
 .showcase-5{
 	/* min-height: 70vh; */
@@ -188,11 +184,7 @@ body {
 	background-color: #eee;
 }
 
-@media(max-width: 768px){
-	.showcase-5 h1{
-		font-size: 3rem;
-	}
-}
+
 
 .formations{
 	/* min-height: 100vh; */
@@ -296,4 +288,26 @@ footer p {
 }
 .copyright a:hover{
 	color: #387CBD;
+}
+
+@media(max-width: 768px){
+	.showcase .showcase-inner h3{
+		font-size: 1.5rem;
+		font-weight: 700;
+
+	}
+	.showcase .showcase-inner h1{
+		font-size: 4rem;
+	}
+	.showcase-4{
+		min-height: 60vh;
+		font-size: 1.2rem;
+		font-weight: 600;
+	}
+	.showcase-5 h1{
+		font-size: 3rem;
+	}
+	.showcase-5 .button-1{
+		margin-bottom: 1rem;
+	}
 }

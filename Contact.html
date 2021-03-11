@@ -40,7 +40,7 @@
   <section class="get-in-touch">
     <div class="container">  
       <h1 class="title">Contactez-nous!</h1>
-      <form class="contact-form row" autocomplete="off" method="POST" data-netlify="true">
+      <form class="contact-form row" autocomplete="off" name="Contact" method="POST" data-netlify="true">
         <div class="form-field col-lg-6">
             <input id="name" class="input-text bg-white" type="text" name="Nom - Prénom" autocomplete="off" required>
             <label class="label" for="name">Nom - Prénom</label>
@@ -75,7 +75,8 @@
             <label class="label" for="message">Message</label>
         </div>
         <div class="form-field col-lg-12">
-            <input class="submit-btn" type="submit" value="ENVOYEZ">
+            <!-- <input class="submit-btn" type="submit" value="ENVOYEZ"> -->
+            <button type="submit" class="submit-btn">ENVOYEZ</button>
         </div>
       </form>
     </div>

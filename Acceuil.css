@@ -492,7 +492,7 @@ footer p {
 }
 
 
-@media (min-width: 1400px){
+@media (min-width: 2000px){
 	.showcase-1-content-1 {
 		padding: 50px 20px;
 		font-size: 3rem;
@@ -506,7 +506,6 @@ footer p {
 	}
 	.showcase-1-content-2 .button {
 		font-size: 1.5rem;
-		padding: 20px 40px;
 	}
 }
 

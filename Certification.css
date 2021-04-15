@@ -210,6 +210,10 @@ a{
 .steps .steps-details-2 p span{
 	font-weight: 700;
 }
+.steps i{
+	font-size: 5rem;
+	color: #478AC9;
+}
 
 
 .nouschoisir{
@@ -351,6 +355,9 @@ footer p {
 		line-height: 1.2;
 		padding: 20px;
 	}
+	.steps i{
+		font-size: 4rem;
+	}
 
 	.implication .column-1 h1{
 		font-size: 2.5rem;
@@ -370,4 +377,9 @@ footer p {
 		font-weight: 700;
 	}
 
+}
+@media (max-width: 567px){
+	.steps i {
+		font-size: 3rem;
+	}
 }

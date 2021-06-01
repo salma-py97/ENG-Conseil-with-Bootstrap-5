@@ -19,6 +19,8 @@ a{
 }
 .navbar-toggler:focus{
 	box-shadow: none;
+	border: 0;
+
 }
 body {
 	overflow-x: hidden;

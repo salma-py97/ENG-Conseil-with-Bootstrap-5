@@ -19,6 +19,8 @@ body {
 }
 .navbar-toggler:focus{
 	box-shadow: none;
+	border: 0;
+
 }
 .navbar-custom {
 	background-color: #e5e5e5;

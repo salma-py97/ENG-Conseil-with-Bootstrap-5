@@ -17,6 +17,9 @@
 a{
 	text-decoration: none;
 }
+.navbar-toggler:focus{
+	box-shadow: none;
+}
 body {
 	overflow-x: hidden;
 	position: relative;

@@ -17,6 +17,9 @@ body {
 	background-color: #fff;
 
 }
+.navbar-toggler:focus{
+	box-shadow: none;
+}
 .navbar-custom {
 	background-color: #e5e5e5;
 }

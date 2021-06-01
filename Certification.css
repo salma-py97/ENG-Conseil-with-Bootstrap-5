@@ -19,7 +19,9 @@ body {
 a{
 	text-decoration: none;
 }
-
+.navbar-toggler:focus{
+	box-shadow: none;
+}
 .navbar-custom {
 	background-color: #e5e5e5;
 }
